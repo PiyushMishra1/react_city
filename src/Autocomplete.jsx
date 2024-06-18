@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const API_URL = 'https://wft-geo-db.p.rapidapi.com/v1/geo/cities';
-const API_KEY = '0f9642540fmshe374b05b9e38e71p13ce70jsna39683c0b53e'; // Replace with your actual API key
+const API_KEY = '0f9642540fmshe374b05b9e38e71p13ce70jsna39683c0b53e'; 
 
 function Autocomplete() {
   const [query, setQuery] = useState('');
